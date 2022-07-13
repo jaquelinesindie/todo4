@@ -1,0 +1,118 @@
+Candidato(a): Jaqueline
+Objetivo: Analista de Dados 
+Resumo: Habilidades com Python, SQL, MySQL, PostgreSQL, SQL Server, Azure, Power BI, Boa comunicação
+
+Candidato(a): Vinícius
+Objetivo: Engenheiro de Dados
+Resumo: SQL, Databricks, Azure, SQL Server, Qlik View, Power BI, Python, Boa comunicação
+
+Candidato(a): Caio
+Objetivo: Cientista de Dados
+Resumo Habilidades em Machine Learning, Python, R, SQL, AWS
+
+Candidato(a): Gabriel
+Objetivo: Cientista de Dados
+Resumo Habilidades em Machine Learning, Python, SQL, AWS, Azure, Boa comunicação
+
+Candidato(a): Vitoria
+Objetivo: Analista de Dados 
+Resumo: Habilidades com Python, SQL, AWS, Power BI, Data Studio, Boa comunicação
+
+Candidato(a): Marilaine
+Objetivo: Analista de Dados 
+Resumo: Habilidades com Python, SQL, MySQL, Tableau, Boa comunicação
+
+Candidato(a): Alice
+Objetivo: Analista de Dados 
+Resumo: Habilidades com SQL, MySQL, Power BI, Boa comunicação, Comunicação assertiva
+
+Candidato(a): Felipe
+Objetivo: Analista de Dados 
+Resumo: Habilidades com Python, SQL, SQL Server, Google Cloudd, Power BI
+
+Candidato(a): Joao
+Objetivo: Analista de Dados 
+Resumo: Habilidades com Python, SQL, MySQL, PostgreSQL, SQL Server, Azure, Power BI, Boa comunicação
+
+Candidato(a): Aline
+Objetivo: Analista de Dados 
+Resumo: Habilidades com Python, SQL, MySQL, PostgreSQL, SQL Server, Azure, Power BI, Estatística
+
+Candidato(a): Carol
+Objetivo: Analista de Dados 
+Resumo: Habilidades com Python, SQL, MySQL, PostgreSQL, SQL Server, Azure, Power BI, Excel
+
+Candidato(a): Mariana
+Objetivo: Analista de Dados 
+Resumo: Habilidades com Python, SQL, MySQL, PostgreSQL, SQL Server, Azure, Power BI
+
+Candidato(a): Camila
+Objetivo: Analista de Dados 
+Resumo: Habilidades com Python, SQL, MySQL, PostgreSQL, SQL Server, Azure, Power BI, Pacote Office
+
+Candidato(a): Gustavo
+Objetivo: Analista de Dados 
+Resumo: Habilidades com Python, SQL, MySQL, PostgreSQL, SQL Server, Azure, Power BI, Machine Learning
+
+Candidato(a): Lucas
+Objetivo: Cientista de Dados
+Resumo Habilidades em Machine Learning, Python, R, SQL, AWS, Estatistica
+
+Candidato(a): Paulo
+Objetivo: Cientista de Dados
+Resumo Habilidades em Machine Learning, Python, R, SQL, Azure, Excel
+
+Candidato(a): Eduardo
+Objetivo: Cientista de Dados
+Resumo Habilidades em Machine Learning, Python, R, SQL, Google Cloud, Estatistica
+
+Candidato(a): Gabriela
+Objetivo: Cientista de Dados
+Resumo Habilidades em Machine Learning, Python, R, SQL, AWS, Excel
+
+Candidato(a): Milena
+Objetivo: Cientista de Dados
+Resumo Habilidades em Machine Learning, Python, R, SQL, Azure, Estatistica
+
+Candidato(a): Gabriela
+Objetivo: Cientista de Dados
+Resumo Habilidades em Machine Learning, Python, SQL, AWS, Excel, Azure, Estatistica
+
+Candidato(a): Matheus
+Objetivo: Engenheiro de Dados
+Resumo: SQL, Databricks, Azure, SQL Server, Qlik View, Power BI, Python
+
+Candidato(a): Henrique
+Objetivo: Engenheiro de Dados
+Resumo: SQL, Databricks, AWS, SQL Server, Qlik View, Power BI, Python
+
+Candidato(a): Isabela
+Objetivo: Engenheiro de Dados
+Resumo: SQL, Databricks, Google Cloud, SQL Server, Tableau, Power BI, Python
+
+Candidato(a): Bruno
+Objetivo: Engenheiro de Dados
+Resumo: SQL, Databricks, Azure, SQL Server, Power BI, Python
+
+Candidato(a): Guilherme
+Objetivo: Engenheiro de Dados
+Resumo: SQL, Databricks, AWS, SQL Server, Qlik View, Power BI, Python, Excel
+
+Candidato(a): Douglas
+Objetivo: Engenheiro de Dados
+Resumo: SQL, Databricks, Google Cloud, SQL Server, Data Studio, Python
+
+Candidato(a): Diogo
+Objetivo: Engenheiro de Dados
+Resumo: SQL, Databricks, Google Cloud, SQL Server, AWS
+
+Candidato(a): Igor
+Objetivo: Engenheiro de Dados
+Resumo: SQL, Databricks, Azure, SQL Server, Qlik View, Power BI, Python, Estatistica
+
+
+
+
+
+
+
