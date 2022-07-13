@@ -8,7 +8,7 @@ Resumo: SQL, Databricks, Azure, SQL Server, Qlik View, Power BI, Python, Boa com
 
 Candidato(a): Caio
 Objetivo: Cientista de Dados
-Resumo Habilidades em Machine Learning, Python, R, SQL, AWS
+Resumo Habilidades em AWS, R, Power BI
 
 Candidato(a): Gabriel
 Objetivo: Cientista de Dados
@@ -16,7 +16,7 @@ Resumo Habilidades em Machine Learning, Python, SQL, AWS, Azure, Boa comunicaç�
 
 Candidato(a): Vitoria
 Objetivo: Analista de Dados 
-Resumo: Habilidades com Python, SQL, AWS, Power BI, Data Studio, Boa comunicação
+Resumo: Habilidades com Databricks, Azure, Qlik View
 
 Candidato(a): Marilaine
 Objetivo: Analista de Dados 
@@ -29,6 +29,14 @@ Resumo: Habilidades com SQL, MySQL, Power BI, Boa comunicação, Comunicação a
 Candidato(a): Felipe
 Objetivo: Analista de Dados 
 Resumo: Habilidades com Python, SQL, SQL Server, Google Cloudd, Power BI
+
+Candidato(a): Laura
+Objetivo: Analista de Dados
+Resumo: Databricks, Azure, Qlik View
+
+Candidato(a): Patrick
+Objetivo: Analista de Dados
+Resumo: Databricks, Azure, Qlik View
 
 Candidato(a): Joao
 Objetivo: Analista de Dados 
@@ -111,8 +119,28 @@ Objetivo: Engenheiro de Dados
 Resumo: SQL, Databricks, Azure, SQL Server, Qlik View, Power BI, Python, Estatistica
 
 
+Candidato(a): Lucas
+Objetivo: Cientista de Dados
+Resumo Habilidades em Databricks, Google Cloud
+
+Candidato(a): Paulo
+Objetivo: Cientista de Dados
+Resumo Habilidades em Machine Learning, Python, R, SQL, Azure, Excel
+
+Candidato(a): Eduardo
+Objetivo: Cientista de Dados
+Resumo Habilidades em Databricks, Google Cloud
 
 
+Candidato(a): Lucas
+Objetivo: Analista de Dados
+Resumo Habilidades em AWS, Estatistica, R, Tableau
 
+Candidato(a): Paulo
+Objetivo: Analista de Dados
+Resumo Habilidades em AWS, Estatistica, R, Tableau
 
+Candidato(a): Eduardo
+Objetivo: Cientista de Dados
+Resumo Habilidades em AWS, Estatistica, R, Tableau
 

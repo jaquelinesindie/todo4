@@ -124,24 +124,26 @@
 
 # print(split_list())
 
-arquivo = ['France, the weather is nice', 'the house is beautiful', 'we have a fresh start here', 'France, the dinner is amazing',
-           'the lady is lovely', 'France, the house is beautiful', 'the location is fascinating']
+# arquivo = ['France, the weather is nice', 'the house is beautiful', 'we have a fresh start here', 'France, the dinner is amazing',
+#            'the lady is lovely', 'France, the house is beautiful', 'the location is fascinating']
 
-lista_nova = []
-sub_list = [] 
+# lista_nova = []
+# sub_list = [] 
 
-for i in arquivo:
-    if i.startswith('France,'):
-        if sub_list != []:
-            lista_nova.append(sub_list)
-            sub_list=[]
+# for i in arquivo:
+#     if i.startswith('France,'):
+#         if sub_list != []:
+#             lista_nova.append(sub_list)
+#             sub_list=[]
 
-    sub_list.append(i)
-lista_nova.append(sub_list)
+#     sub_list.append(i)
+# lista_nova.append(sub_list)
 
-print(lista_nova)
+# print(lista_nova)
 
 
+# dicionario = dict(zip(range(0,len(lista_nova)), lista_nova))
+# print(dicionario)
 
 # sentence = "The dog chased the rabbit into the forest but the rabbit was too quick."
 # sentence_list = sentence.split()
@@ -153,3 +155,44 @@ print(lista_nova)
 #     sentence_dictionary[item] += 1
 # word_counts = sentence_dictionary
 # print(word_counts)
+txt_string = ''
+txt = ''
+with open('processoSeletivo.txt', encoding='utf-8') as ps:
+    linhas = ps.readlines()
+    # print(lines)
+""" Processo de transformação dos dados
+"""
+
+for valor in linhas: # Laço de concatenação da string e extração de caracteres 
+    txt_string = txt_string + valor.replace('\n','') + ' '
+    txt_string = txt_string.replace(',','')
+    txt_string = txt_string.replace(':','')
+
+# print('Tirando os do texto e concatenando em string ', txt_string)
+txt_string = txt_string.split() # separa todas as palavras
+# print('Split', txt_string)
+txt_string = str(txt_string).lower()
+txt_string = txt_string.replace('[','') # Retirando os colchetes devido aos processos de tranformações
+txt_string = txt_string.replace(']','') # Retirando os colchetes devido aos processos de tranformações
+# print(txt_string)
+# print('Transformando em minúsculo',txt_string)
+arquivo = [txt_string] # Transforma o texto em lista
+# print(type(arquivo))
+# print(arquivo)
+
+lista_nova = []
+sub_list = [] 
+
+for i in arquivo:
+    if i.startswith("'candidato(a)'"):
+        if sub_list != []:
+            lista_nova.append(sub_list)
+            sub_list=[]
+    sub_list.append(i)
+lista_nova.append(sub_list)
+
+print('Lista nova \n',lista_nova)
+
+
+# dicionario = dict(zip(range(0,len(lista_nova)), lista_nova))
+# print(dicionario)
