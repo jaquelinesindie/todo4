@@ -77,17 +77,79 @@
 #!/usr/bin/python
 # teste.py
 
-name_list = []
-curriculum_list = []
+# name_list = []
+# curriculum_list = []
 
-candidatos = int(input("Digite o número de candidatos no processo seletivo: "))
+# candidatos = int(input("Digite o número de candidatos no processo seletivo: "))
 
-for x in range(candidatos):
-    name = input("Digite o nome do candidato: ")
-    curriculum = input(
-        "Vaga que o candidato está candidatando {0}".format(name))
-    name_list.append(input("Digite o nome do candidato: "))
-    curriculum_list.append(curriculum)
+# for x in range(candidatos):
+#     name = input("Digite o nome do candidato: ")
+#     curriculum = input(
+#         "Vaga que o candidato está candidatando {0}".format(name))
+#     name_list.append(input("Digite o nome do candidato: "))
+#     curriculum_list.append(curriculum)
 
-d = dict(zip(name_list, curriculum_list))
-print(d)
+# d = dict(zip(name_list, curriculum_list))
+# print(d)
+
+# my_list = ['France, the weather is nice', 'the house is beautiful', 'we have a fresh start here', 'France, the dinner is amazing',
+#            'the lady is lovely', 'France, the house is beautiful', 'the location is fascinating']
+
+# new_list = []
+# sub_list = []
+# for i in my_list:
+#     if i.startswith('candidato(a),'):
+#         if sub_list != []:
+#             new_list.append(sub_list)
+#             sub_list=[]
+
+#     sub_list.append(i)
+# new_list.append(sub_list)
+
+# print(new_list)
+
+# my_list = ['France, the weather is nice', 'the house is beautiful', 'we have a fresh start here', 'France, the dinner is amazing', 'the lady is lovely', 'France, the house is beautiful','the location is fascinating']
+
+
+# def separaCandidatos(index=len(my_list) - 1):
+#     if index < 0:
+#         return []
+#     if not my_list[index].startswith('France,'):
+#         data = split_list(index - 1)
+#         data[-1].append(my_list[index])
+#         return data
+#     else:
+#         return split_list(index - 1) + [[my_list[index]]]
+
+
+# print(split_list())
+
+arquivo = ['France, the weather is nice', 'the house is beautiful', 'we have a fresh start here', 'France, the dinner is amazing',
+           'the lady is lovely', 'France, the house is beautiful', 'the location is fascinating']
+
+lista_nova = []
+sub_list = [] 
+
+for i in arquivo:
+    if i.startswith('France,'):
+        if sub_list != []:
+            lista_nova.append(sub_list)
+            sub_list=[]
+
+    sub_list.append(i)
+lista_nova.append(sub_list)
+
+print(lista_nova)
+
+
+
+# sentence = "The dog chased the rabbit into the forest but the rabbit was too quick."
+# sentence_list = sentence.split()
+# sentence_dictionary = {}
+
+# for item in sentence_list:
+#     if item not in sentence_dictionary:
+#         sentence_dictionary[item] = 0
+#     sentence_dictionary[item] += 1
+# word_counts = sentence_dictionary
+# print(word_counts)

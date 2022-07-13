@@ -4,25 +4,38 @@
 
 """ Funções
 """
-def entrada(candidatos, curriculo):
-    palavraChaveAD = ['python','power bi', 'sql', 'comunicação']
-    palavraChaveCD = ['python','banco','dados','machine','learning','resolução','problemas','estatística', 'r']
-    analistaDados = 0 # variável para contagem do número de analistas
-    cientistaDados = 0 # variável para contagem do número de cientistas
-    count = 0
 
-    # while candidatos:
-        
-    #     for i in curriculo:
-    #         if i in 
+def quantidadeCandidatos(num):
+    participantes = num.count('candidato(a)') #count funciona em strings
+    return f'A quantidade de candidatos a serem cadastrados é {participantes}'
 
-    return 
+def separaCandidatos(arquivo):
+    lista_nova = []
+    sub_list = [] 
+
+    for i in arquivo:
+        if i.startswith('candidato(a):'):
+            if sub_list != []:
+                lista_nova.append(sub_list)
+                sub_list=[]
+        sub_list.append(i)
+    lista_nova.append(sub_list)
+
+    return (lista_nova)
 
 
+# def entrada(candidatos, curriculo):
+#     palavraChaveAD = ['python','power bi', 'sql', 'comunicação']
+#     palavraChaveCD = ['python','banco','dados','machine','learning','resolução','problemas','estatística', 'r']
+#     analistaDados = 0 # variável para contagem do número de analistas
+#     cientistaDados = 0 # variável para contagem do número de cientistas
+#     count = 0
 
+#     return 
 
 """ Variáveis globais
 """
+
 participantes = 0
 txt_string = ''
 arquivo = []
@@ -31,26 +44,28 @@ arquivo = []
 """
 
 with open('processoSeletivo.txt', encoding='utf-8') as ps:
-    lines = ps.readlines()
-    print(lines)
+    linhas = ps.readlines()
+    # print(lines)
 """ Processo de transformação dos dados
 """
 
-for valor in lines: # Laço de concatenação da string
+for valor in linhas: # Laço de concatenação da string
     txt_string = txt_string + valor.replace('\n','') + ' '
 
-print('Tirando os \n do texto e concatenando em string ',txt_string)
+# print('Tirando os \n do texto e concatenando em string ',txt_string)
 txt_string = txt_string.split() # separa todas as palavras
 # print('Split', txt_string)
 txt_string = str(txt_string).lower()
-print(type(txt_string))
-print('Transformando em minúsculo',txt_string)
+# print(type(txt_string))
+# print('Transformando em minúsculo',txt_string)
 arquivo = [txt_string] # Transforma o texto em lista
-print(type(arquivo))
-print(arquivo)
+# print(type(arquivo))
+# print(arquivo)
 
-participantes = txt_string.count('candidato(a)') #count funciona em strings
-print(f'A quantidade de candidatos a serem cadastrados é {participantes}')
+print(separaCandidatos(arquivo))
 
-print(entrada(participantes, arquivo))
+participantes = quantidadeCandidatos(txt_string)
+
+# print(entrada(participantes, arquivo))
+
 
